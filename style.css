@@ -1,0 +1,674 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+.blog .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(179, 180, 180, 0.315);
+    padding: 30px 30px;
+
+}
+
+.blog .nav .nav-head{
+    font-size: 40px;
+    row-gap: 5px;
+    font-family: Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+
+.blog .nav .nav-mid{
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+.blog .nav span{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    font-size: 17px;
+}
+
+.blog .contents{
+    display: flex;
+    background-color: rgba(175, 173, 173, 0.308);
+}
+
+.blog .contents .left{
+    width: 65%;
+    margin-left: 15px;
+   
+}
+
+.blog .left .wood-content img{
+    margin-top: 20px;
+    height: 30vh;
+    width: 600px;
+}
+
+.blog .left .wood-content .wood-text{
+
+    background-color: white;
+    width: 600px;
+    padding-bottom: 30px;
+
+}
+
+.blog .left .wood-content .wood-head{
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.blog .left .wood-content .wood-mid{
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+.blog .left .wood-content .s-t{
+    color: rgb(199, 198, 198);
+}
+
+.blog .left .wood-content .wood-down{
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+.blog .left .wood-content .b-c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.blog .left .wood-content .but{ 
+    font-size: 15px;
+    padding: 10px 13px ;
+    background-color: transparent;
+    border: 1px solid rgb(202, 200, 200);
+}
+
+.blog .left .wood-content .s-n{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 5px 7px;
+}
+
+.blog .contents .right{
+    width: 35%;
+}
+
+.blog .right .wood-right img{
+    margin-top: 20px;
+    width: 330px;
+}
+
+.blog .right .right-text{
+    background-color: white;
+    width: 330px;
+}
+
+.blog .right .right-text .right-head{
+    padding: 8px 10px;
+    font-size: 20px;
+}
+
+.blog .right .right-text .right-mid{
+    padding: 12px 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.blog .right .post{
+    margin-top: 30px;
+    background-color: gray;
+    width: 330px;
+}
+
+.blog .right .post .post-head{
+    font-size: 20px;
+    background-color: rgb(211, 208, 208);
+    padding: 25px 10px;
+    
+}
+.blog .right .post .post-text{
+    display: flex;
+    padding: 15px 10px;
+    background-color: white;
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.blog .right .post .post-text:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+.blog .right .post img{
+    width: 50px;
+}
+
+.blog .right .post .shop-text{
+    font-size: 15px;
+    padding-top: 10px;
+    margin-left: 12px;
+}
+
+.blog .right .tags{
+    margin-top: 30px;
+    background-color: transparent;
+    width: 330px;
+    padding-bottom: 30px;
+}
+
+.blog .right .tags .tag-head{
+    font-size: 20px;
+    background-color: rgb(211, 208, 208);
+    padding: 25px 10px;
+    
+}
+
+.blog .right .tags .tag-text{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: white;
+    font-size: 12px;
+    width: 330px;
+    padding: 15px 13px;
+    
+}
+
+.blog .right .tags .tags-text{
+    background-color: rgb(187, 187, 187);
+    padding: 5px 8px;
+       
+}
+
+.blog .right .tags .tags-text-1 {
+    background-color: black;
+    padding: 5px 8px;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(83, 83, 83);
+}
+
+.blog .footer .click{
+    display: flex;
+    padding: 30px 20px;
+}
+
+.blog .footer .click .but1{
+
+    font-size: 15px;
+    padding: 15px 15px;
+    background-color: rgb(109, 108, 108);
+    border: none;
+    color: rgb(161, 161, 161);
+
+}
+
+.blog .footer .click .but2{
+
+    font-size: 15px;
+    padding: 15px 25px;
+    background-color: black;
+    border: none;
+    color:white;
+    margin-left: 12px;
+
+}
+
+.blog .footer .f-t{
+    margin-left: 20px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 12px;
+
+}
+
+.blog .footer .f-t a{
+    padding-bottom: 30px;
+    color: white;
+    font-size: 12px;
+
+}
+
+@media screen and (max-width:428px) {
+
+    .blog .nav .nav-head{
+        font-size: 25px;
+       
+    }
+
+    .blog .nav .nav-mid{
+        font-size: 14px;
+       
+      }
+
+      .blog .nav span{
+      
+        font-size: 14px;
+    }
+
+    .blog .contents{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .blog .left .wood-content img{
+       
+        height: 23vh;
+        width: 400px;
+    }
+
+    .blog .left .wood-content .wood-text{
+
+        width: 400px;
+    
+    }
+
+    .blog .left .wood-content .wood-head{
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+
+    .blog .left .wood-content .wood-down{
+       
+        font-size: 13px;
+        font-weight: 50%;
+        
+    }
+
+    .blog .left .wood-content .but{ 
+        font-size: 13px;
+    }
+
+    .blog .left .wood-content .s-n{
+    
+        font-size: 10px;
+        
+    }
+
+    .blog .right .wood-right img{
+        
+        width: 400px;
+        height: 23vh;
+        margin-left: 15px;
+    }
+
+    .blog .right .right-text{
+        
+        width: 400px;
+        margin-left: 15px;
+    }
+
+    .blog .right .right-text .right-head{
+        
+        font-size: 15px;
+    }
+
+    .blog .right .right-text .right-mid{
+        
+        font-size: 13px;
+      
+    }
+
+    .blog .right .post{
+       
+        width: 400px;
+        margin-left: 15px;
+    }
+
+    .blog .right .post .post-head{
+        font-size: 15px; 
+    }
+
+    .blog .right .post .shop-text{
+        font-size: 13px;
+        
+    }
+
+    .blog .right .tags{
+        width: 400px;
+        margin-left: 15px;
+    }
+
+    .blog .right .tags .tag-head{
+        font-size: 15px;
+   
+        
+    }
+
+    .blog .right .tags .tag-text{
+        font-size: 13px;
+        width: 400px;
+    }
+
+    .blog .footer .click{
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    .blog .footer .f-t{
+        margin-left: 150px;
+        padding-top: 30px;
+    
+    }
+    
+}
+
+@media screen and (max-width:390px) {
+
+    .blog .left .wood-content img{
+       
+        height: 23vh;
+        width: 350px;
+    }
+
+    .blog .left .wood-content .wood-text{
+
+        width: 350px;
+    
+    }
+
+    .blog .right .wood-right img{
+        
+        width: 350px;
+      
+    }
+
+    .blog .right .right-text{
+        
+        width: 350px;
+        
+    }
+
+    .blog .right .post{
+       
+        width: 350px;
+       
+    }
+
+    .blog .right .tags{
+        width: 350px;
+       
+    }
+
+    .blog .right .tags .tag-text{
+        width: 350px;
+    }
+
+
+    
+}
+
+@media screen and (max-width:414px) {
+    .blog .nav .nav-head{
+        font-size: 22px;
+       
+    }
+
+    .blog .nav .nav-mid{
+        font-size: 13px;
+       
+      }
+
+      .blog .nav span{
+      
+        font-size: 13px;
+    }
+
+    .blog .contents{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .blog .left .wood-content img{
+       
+        height: 20vh;
+        width: 380px;
+    }
+
+    .blog .left .wood-content .wood-text{
+
+        width: 380px;
+    
+    }
+
+    .blog .left .wood-content .wood-head{
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+    .blog .left .wood-content .wood-down{
+       
+        font-size: 13px;
+        font-weight: 50%;
+        
+    }
+
+    .blog .left .wood-content .but{ 
+        font-size: 13px;
+    }
+
+    .blog .left .wood-content .s-n{
+    
+        font-size: 10px;
+        
+    }
+
+    .blog .right .wood-right img{
+        
+        width: 380px;
+        height: 20vh;
+        margin-left: 15px;
+    }
+
+    .blog .right .right-text{
+        
+        width: 380px;
+        margin-left: 15px;
+    }
+
+    .blog .right .right-text .right-head{
+        
+        font-size: 15px;
+    }
+
+    .blog .right .right-text .right-mid{
+        
+        font-size: 13px;
+      
+    }
+
+    .blog .right .post{
+       
+        width: 380px;
+        margin-left: 13px;
+    }
+
+    .blog .right .post .post-head{
+        font-size: 13px; 
+    }
+
+    .blog .right .post .shop-text{
+        font-size: 13px;
+        
+    }
+
+    .blog .right .tags{
+        width: 380px;
+        margin-left: 15px;
+    }
+
+    .blog .right .tags .tag-head{
+        font-size: 13px;
+   
+        
+    }
+
+    .blog .right .tags .tag-text{
+        font-size: 13px;
+        width: 380px;
+    }
+
+    .blog .footer .click{
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    .blog .footer .f-t{
+        margin-left: 150px;
+        padding-top: 30px;
+    
+    }
+}
+
+
+@media screen and (max-width:360px) {
+    .blog .nav .nav-head{
+        font-size: 22px;
+       
+    }
+
+    .blog .nav .nav-mid{
+        font-size: 13px;
+       
+      }
+
+      .blog .nav span{
+      
+        font-size: 13px;
+    }
+
+    .blog .contents{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .blog .left .wood-content img{
+       
+        height: 20vh;
+        width: 300px;
+    }
+
+    .blog .left .wood-content .wood-text{
+
+        width: 300px;
+    
+    }
+
+    .blog .left .wood-content .wood-head{
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+    .blog .left .wood-content .wood-down{
+       
+        font-size: 13px;
+        font-weight: 50%;
+        
+    }
+
+    .blog .left .wood-content .but{ 
+        font-size: 13px;
+    }
+
+    .blog .left .wood-content .s-n{
+    
+        font-size: 10px;
+        
+    }
+
+    .blog .right .wood-right img{
+        
+        width: 300px;
+        height: 20vh;
+        margin-left: 15px;
+    }
+
+    .blog .right .right-text{
+        
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    .blog .right .right-text .right-head{
+        
+        font-size: 15px;
+    }
+
+    .blog .right .right-text .right-mid{
+        
+        font-size: 13px;
+      
+    }
+
+    .blog .right .post{
+       
+        width: 300px;
+        margin-left: 13px;
+    }
+
+    .blog .right .post .post-head{
+        font-size: 13px; 
+    }
+
+    .blog .right .post .shop-text{
+        font-size: 13px;
+        
+    }
+
+    .blog .right .tags{
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    .blog .right .tags .tag-head{
+        font-size: 13px;
+   
+        
+    }
+
+    .blog .right .tags .tag-text{
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .blog .footer .click{
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    .blog .footer .f-t{
+        margin-left: 100px;
+        padding-top: 30px;
+    
+    }
+}
+
+
+
+
+
+
+
+
